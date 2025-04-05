@@ -113,7 +113,7 @@ li:hover > .sub-menu {
         top: 100px; /* offset 90px from top of body */
         left: 0px;
         
-       display: none; /* by default this isnt shown */
+       /* display: none; by default this isnt shown */
 
     }
 
@@ -136,24 +136,58 @@ li:hover > .sub-menu {
 
     }
 
-    header nav li:last-child {
-        border-bottom: 0;
+    ul > li:nth-child() {
+        background-color: #e6a563;;
     }
+
+    ul > li:nth-child(5) {
+        background-color: #e6a563;;
+    }
+
+    
+       
+
     
     .sub-menu {
         display: flex;
         position: relative;
         border-radius: 0;
-        width: 100%;
+        width: 90%;
         padding: 0;
         gap: 0;
         left: 0px;
+
     }
 
     .sub-menu li {
         padding: 20px 0;
+        background-color: #ffff;
+
 
     }
+     header .container a:first-child {
+        width: 100%;
+
+     }
+     /* manually set the logo */
+     header .container a > img {
+        width: 250px;
+     }
+
+    .button {
+        width: 100%;
+        display: block;
+        border-radius: 0px;
+        background-color: transparent;
+        /* manually adding padding back to button after removing in*/ 
+
+    }
+
+   
+
+
+   
+
 
     nav li:hover > .sub-menu {
         display: flex;
