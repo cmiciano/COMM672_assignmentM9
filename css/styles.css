@@ -64,7 +64,7 @@ header ul {
     padding: 5px 10px;
 }
 .button:hover {
-    background-color: #fff;
+    background-color:  #e6a563;
 }
 nav li {
     margin: 0 1em;
@@ -113,7 +113,7 @@ li:hover > .sub-menu {
         top: 100px; /* offset 90px from top of body */
         left: 0px;
         
-       /* display: none; by default this isnt shown */
+       display: none; /* by default the nav isnt shown */
 
     }
 
@@ -220,36 +220,7 @@ li:hover > .sub-menu {
 
 
 
-   
 
-    /* select logo header .container a:first-child manually */
-    /*
-    div > a {
-        background-color: blue;
-        width: 200px;
-        margin-right: auto;
-    }
-        */
-
-  
-    /* li > a{
-        background-color: blue;
-        display: inline-block;
-        width: 100%;
-    } */
- 
-   
-    /* ul a {
-        background-color: purple;
-        display: inline-block; 
-        height: 100px;
-        width: 10px;
-     
-
-    } */
-
-
- 
 
   
 }
